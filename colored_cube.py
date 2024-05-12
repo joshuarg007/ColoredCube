@@ -171,7 +171,7 @@ def main():
 
     glfw.set_key_callback(window, key_callback)  # Set key callback function
 
-    while not glfw.window_should_close(window):  # Main rendering loop
+    while not glfw.window_should_close(window): # Main render loop
         glfw.poll_events()  # Poll events
         update_camera()  # Update camera position
         display()  # Render the scene
